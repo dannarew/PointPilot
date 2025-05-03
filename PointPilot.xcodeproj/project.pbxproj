@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCEDED8F2DC6800A004D9170 /* PointPilot Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CCEDED8E2DC6800A004D9170 /* PointPilot Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCEDED792DC6800A004D9170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCEDED542DC68009004D9170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCEDED5B2DC68009004D9170;
+			remoteInfo = PointPilot;
+		};
+		CCEDED832DC6800A004D9170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCEDED542DC68009004D9170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCEDED5B2DC68009004D9170;
+			remoteInfo = PointPilot;
+		};
+		CCEDED902DC6800A004D9170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCEDED542DC68009004D9170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCEDED8D2DC6800A004D9170;
+			remoteInfo = "PointPilot Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CCEDEDAE2DC6800A004D9170 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CCEDED8F2DC6800A004D9170 /* PointPilot Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CCEDED5C2DC68009004D9170 /* PointPilot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PointPilot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCEDED782DC6800A004D9170 /* PointPilotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PointPilotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCEDED822DC6800A004D9170 /* PointPilotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PointPilotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCEDED8E2DC6800A004D9170 /* PointPilot Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PointPilot Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CCEDEDA82DC6800A004D9170 /* Exceptions for "PointPilot Extension" folder in "PointPilot Extension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CCEDED8D2DC6800A004D9170 /* PointPilot Extension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CCEDED5E2DC68009004D9170 /* PointPilot */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PointPilot;
+			sourceTree = "<group>";
+		};
+		CCEDED7B2DC6800A004D9170 /* PointPilotTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PointPilotTests;
+			sourceTree = "<group>";
+		};
+		CCEDED852DC6800A004D9170 /* PointPilotUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PointPilotUITests;
+			sourceTree = "<group>";
+		};
+		CCEDED922DC6800A004D9170 /* PointPilot Extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CCEDEDA82DC6800A004D9170 /* Exceptions for "PointPilot Extension" folder in "PointPilot Extension" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/images,
+			);
+			path = "PointPilot Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCEDED592DC68009004D9170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEDED752DC6800A004D9170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEDED7F2DC6800A004D9170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEDED8B2DC6800A004D9170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCEDED532DC68009004D9170 = {
+			isa = PBXGroup;
+			children = (
+				CCEDED5E2DC68009004D9170 /* PointPilot */,
+				CCEDED7B2DC6800A004D9170 /* PointPilotTests */,
+				CCEDED852DC6800A004D9170 /* PointPilotUITests */,
+				CCEDED922DC6800A004D9170 /* PointPilot Extension */,
+				CCEDED5D2DC68009004D9170 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCEDED5D2DC68009004D9170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCEDED5C2DC68009004D9170 /* PointPilot.app */,
+				CCEDED782DC6800A004D9170 /* PointPilotTests.xctest */,
+				CCEDED822DC6800A004D9170 /* PointPilotUITests.xctest */,
+				CCEDED8E2DC6800A004D9170 /* PointPilot Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCEDED5B2DC68009004D9170 /* PointPilot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCEDEDAF2DC6800A004D9170 /* Build configuration list for PBXNativeTarget "PointPilot" */;
+			buildPhases = (
+				CCEDED582DC68009004D9170 /* Sources */,
+				CCEDED592DC68009004D9170 /* Frameworks */,
+				CCEDED5A2DC68009004D9170 /* Resources */,
+				CCEDEDAE2DC6800A004D9170 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCEDED912DC6800A004D9170 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CCEDED5E2DC68009004D9170 /* PointPilot */,
+			);
+			name = PointPilot;
+			packageProductDependencies = (
+			);
+			productName = PointPilot;
+			productReference = CCEDED5C2DC68009004D9170 /* PointPilot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCEDED772DC6800A004D9170 /* PointPilotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCEDEDB22DC6800A004D9170 /* Build configuration list for PBXNativeTarget "PointPilotTests" */;
+			buildPhases = (
+				CCEDED742DC6800A004D9170 /* Sources */,
+				CCEDED752DC6800A004D9170 /* Frameworks */,
+				CCEDED762DC6800A004D9170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCEDED7A2DC6800A004D9170 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CCEDED7B2DC6800A004D9170 /* PointPilotTests */,
+			);
+			name = PointPilotTests;
+			packageProductDependencies = (
+			);
+			productName = PointPilotTests;
+			productReference = CCEDED782DC6800A004D9170 /* PointPilotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCEDED812DC6800A004D9170 /* PointPilotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCEDEDB52DC6800A004D9170 /* Build configuration list for PBXNativeTarget "PointPilotUITests" */;
+			buildPhases = (
+				CCEDED7E2DC6800A004D9170 /* Sources */,
+				CCEDED7F2DC6800A004D9170 /* Frameworks */,
+				CCEDED802DC6800A004D9170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCEDED842DC6800A004D9170 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CCEDED852DC6800A004D9170 /* PointPilotUITests */,
+			);
+			name = PointPilotUITests;
+			packageProductDependencies = (
+			);
+			productName = PointPilotUITests;
+			productReference = CCEDED822DC6800A004D9170 /* PointPilotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CCEDED8D2DC6800A004D9170 /* PointPilot Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCEDEDA92DC6800A004D9170 /* Build configuration list for PBXNativeTarget "PointPilot Extension" */;
+			buildPhases = (
+				CCEDED8A2DC6800A004D9170 /* Sources */,
+				CCEDED8B2DC6800A004D9170 /* Frameworks */,
+				CCEDED8C2DC6800A004D9170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CCEDED922DC6800A004D9170 /* PointPilot Extension */,
+			);
+			name = "PointPilot Extension";
+			packageProductDependencies = (
+			);
+			productName = "PointPilot Extension";
+			productReference = CCEDED8E2DC6800A004D9170 /* PointPilot Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCEDED542DC68009004D9170 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					CCEDED5B2DC68009004D9170 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					CCEDED772DC6800A004D9170 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = CCEDED5B2DC68009004D9170;
+					};
+					CCEDED812DC6800A004D9170 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = CCEDED5B2DC68009004D9170;
+					};
+					CCEDED8D2DC6800A004D9170 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = CCEDED572DC68009004D9170 /* Build configuration list for PBXProject "PointPilot" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCEDED532DC68009004D9170;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CCEDED5D2DC68009004D9170 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCEDED5B2DC68009004D9170 /* PointPilot */,
+				CCEDED772DC6800A004D9170 /* PointPilotTests */,
+				CCEDED812DC6800A004D9170 /* PointPilotUITests */,
+				CCEDED8D2DC6800A004D9170 /* PointPilot Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCEDED5A2DC68009004D9170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEDED762DC6800A004D9170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEDED802DC6800A004D9170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEDED8C2DC6800A004D9170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCEDED582DC68009004D9170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEDED742DC6800A004D9170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEDED7E2DC6800A004D9170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEDED8A2DC6800A004D9170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCEDED7A2DC6800A004D9170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCEDED5B2DC68009004D9170 /* PointPilot */;
+			targetProxy = CCEDED792DC6800A004D9170 /* PBXContainerItemProxy */;
+		};
+		CCEDED842DC6800A004D9170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCEDED5B2DC68009004D9170 /* PointPilot */;
+			targetProxy = CCEDED832DC6800A004D9170 /* PBXContainerItemProxy */;
+		};
+		CCEDED912DC6800A004D9170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCEDED8D2DC6800A004D9170 /* PointPilot Extension */;
+			targetProxy = CCEDED902DC6800A004D9170 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CCEDEDAA2DC6800A004D9170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "PointPilot Extension/PointPilot_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PointPilot Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PointPilot Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pemDOT.PointPilot.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CCEDEDAB2DC6800A004D9170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "PointPilot Extension/PointPilot_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PointPilot Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PointPilot Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pemDOT.PointPilot.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CCEDEDAC2DC6800A004D9170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCEDEDAD2DC6800A004D9170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CCEDEDB02DC6800A004D9170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PointPilot/PointPilot.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PointPilot;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pemDOT.PointPilot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CCEDEDB12DC6800A004D9170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PointPilot/PointPilot.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PointPilot;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pemDOT.PointPilot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CCEDEDB32DC6800A004D9170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pemDOT.PointPilotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PointPilot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PointPilot";
+			};
+			name = Debug;
+		};
+		CCEDEDB42DC6800A004D9170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pemDOT.PointPilotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PointPilot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PointPilot";
+			};
+			name = Release;
+		};
+		CCEDEDB62DC6800A004D9170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pemDOT.PointPilotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PointPilot;
+			};
+			name = Debug;
+		};
+		CCEDEDB72DC6800A004D9170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pemDOT.PointPilotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PointPilot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCEDED572DC68009004D9170 /* Build configuration list for PBXProject "PointPilot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEDEDAC2DC6800A004D9170 /* Debug */,
+				CCEDEDAD2DC6800A004D9170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCEDEDA92DC6800A004D9170 /* Build configuration list for PBXNativeTarget "PointPilot Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEDEDAA2DC6800A004D9170 /* Debug */,
+				CCEDEDAB2DC6800A004D9170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCEDEDAF2DC6800A004D9170 /* Build configuration list for PBXNativeTarget "PointPilot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEDEDB02DC6800A004D9170 /* Debug */,
+				CCEDEDB12DC6800A004D9170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCEDEDB22DC6800A004D9170 /* Build configuration list for PBXNativeTarget "PointPilotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEDEDB32DC6800A004D9170 /* Debug */,
+				CCEDEDB42DC6800A004D9170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCEDEDB52DC6800A004D9170 /* Build configuration list for PBXNativeTarget "PointPilotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEDEDB62DC6800A004D9170 /* Debug */,
+				CCEDEDB72DC6800A004D9170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCEDED542DC68009004D9170 /* Project object */;
+}
